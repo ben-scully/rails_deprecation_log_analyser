@@ -1,5 +1,6 @@
 # frozen_string_literal: true
-require 'YAML'
+
+require 'yaml'
 
 module RailsDeprecationLogAnalyser
   module Classifier

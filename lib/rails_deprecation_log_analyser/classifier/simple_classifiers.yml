@@ -183,3 +183,8 @@ delegating_exists_to_arel:
   log_line_includes: 'Delegating exists to arel is deprecated and will be removed in Rails 6.0'
   deprecated: 'Delegating exists to arel'
   message: 'Delegating exists to arel is deprecated and will be removed in Rails 6.0.'
+
+success_predicate:
+  log_line_includes: 'The success? predicate is deprecated and will be removed in Rails 6.0.'
+  deprecated: 'success? predicate'
+  message: 'The success? predicate is deprecated and will be removed in Rails 6.0. Please use successful? as provided by Rack::Response::Helpers.'

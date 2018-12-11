@@ -178,3 +178,8 @@ dangerous_query_method:
   deprecated: 'Dangerous query method'
   summary: 'Dangerous query method (method whose arguments are used as raw SQL) called with non-attribute argument(s).'
   message: 'Dangerous query method (method whose arguments are used as raw SQL) called with non-attribute argument(s). Non-attribute arguments will be disallowed in Rails 6.0. This method should not be called with user-provided values, such as request parameters or model attributes. Known-safe values can be passed by wrapping them in Arel.sql().'
+
+delegating_exists_to_arel:
+  log_line_includes: 'Delegating exists to arel is deprecated and will be removed in Rails 6.0'
+  deprecated: 'Delegating exists to arel'
+  message: 'Delegating exists to arel is deprecated and will be removed in Rails 6.0.'
